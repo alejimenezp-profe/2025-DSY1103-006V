@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ClienteController {
 
     @GetMapping
-    public String index() {
+    public String index2() {
         return "bienvenidos al listado de clientes";
     }
 }
